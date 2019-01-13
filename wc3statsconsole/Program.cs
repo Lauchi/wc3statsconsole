@@ -77,7 +77,7 @@ namespace wc3statsconsole
                 streamWriter.Flush();
                 streamWriter.Close();
 
-                Task.Delay(60000).Wait();
+                Task.Delay(3600000).Wait();
             }
         }
     }
